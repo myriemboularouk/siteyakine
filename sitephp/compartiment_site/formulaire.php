@@ -1,16 +1,18 @@
 <?php 
-include('inc/header.inc.php'); 
+include('inc/header.inc.php');//include=ttdmane entéte. 
 include('inc/nav.inc.php'); 
 ?>
         <main> <!-- Main : Contenu principal de la page-->
             <h2>Formulaire</h2>
             <section class="formulaire">
-                <form method="post" action="url de destination" enctype="multipart/form-data">
+                <form method="post" action="url de destination" enctype="multipart/form-data"><!--poster-->
                     <label for="pseudo">Pseudo *</label>
                     <input type="text" id="pseudo" name="pseudo" required><br>
+                    <!--required=matloub-->
 
                     <label for="prenom">Prénom</label>
                     <input type="text" id="prenom" name="prenom" placeholder="Votre prénom"><br>
+                     <!--placeholder=espace réservé-->
 
                     <label for="mdp">Mot de passe</label>
                     <input type="password" id="mdp" name="mdp"><br>
@@ -20,6 +22,8 @@ include('inc/nav.inc.php');
 
                     <label for="cv">CV</label>
                     <input type="file" id="cv" name="cv"><br>
+                    <!--file=fichier-->
+
 
                     <p>Quels sont vos fruits préférés ?</p>
                     <label for="orange">Orange</label>
@@ -35,8 +39,10 @@ include('inc/nav.inc.php');
                     <label for="message">Message</label>
                     <textarea id="message" rows="6" cols="30"></textarea><br>
 
-                    <input type="submit" name="Envoyer" value="Envoyer">
+
+                    <input type="submit" name="Envoyer" value="Envoyer"><!--submit=valider-->
                     <input type="reset" name="Annuler" value="Annuler">
+                    <!--reset=réinitialiser=iaadt etaaiine-->
 
 
 
